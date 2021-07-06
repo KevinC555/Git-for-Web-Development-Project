@@ -1,0 +1,114 @@
+https://codepen.io/KCorcoran/pen/ExmKjWN?editors=1100
+
+    1. What is Semantic HTML? 
+A semantic tag is something that is used to give meaning to the names of our tags. Like Div, we wouldn't use this that much because it doesn't give meaning to our code. A semantic tag like header makes more sense to use.
+
+    2. What is HTML used for? 
+Html is meant to be used a hyper-text markup language. This allows us to markup a page with semantics that let us bring our tools to the table. Tools being words, paragraphs, heading, etc.
+
+    3. What is an attribute and where do we put it? 
+An attribute can be used in an anchor tag. The attrivute would be the href, which points to where we want our link to go.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+The H1 tag is used for defining the main title of the page. This could be a business name, etc. You should only use it one time because it's the most important thing about the page.
+
+    5. Name two tags that have required attributes
+Two tags that required attributes are anchor and img. The attribute in anchor is the href and in image it's the src.
+
+    6. What do we put in the head of our HTML document? 
+The head of our html document is the title element and viewport information.
+
+    7. What is an id? 
+An id is something that lets us give an element an id to be styled singularly.
+
+    8. What elements can I add an id to? 
+You can add an id to any element you need to style on it's own.
+
+    9. How many times can I use the same id on a page?
+ You can use as many id's as you want as long as they are not the same as another elements id. So for a section you want to style differently, they should have different id's.
+
+    10. What is a class? 
+A class is simliar to an id, but also opposite. You want to use classes to style elements together. So this could be wanting sections to be the same color, size or shape.
+
+    11. What elements can I add a class to? 
+You can add a class to any elements.
+
+    12. How many times can I use the same class on a page? 
+You can use the same class on a page as often as you need it because that's what it's there for.
+
+    13. How do I get my link to open in a new tab?
+You can get your link to open in a new tab by adding another attribute to the anchor tag known as the target="_blank".
+
+    14. What is the alt attribute in the image tag used for? 
+The alt attribute is used for screen readers just in case the image goes so there can be a description of what it was. This is also required by most companies for disability purposes, which could be screen readers for someone who is blind.
+
+    15. How do I reference an id?
+You can reference an id by typing in #idname {}.
+
+    16. What is the difference between a section and a div?
+One of the differences between a section and an id is that the section tag is semantic. When you talka bout sections, you'l automatically know or assume that it's for styling sections. Whereas a div youm wouldn't have the slightest clue.
+
+    17. What is CSS used for? 
+CSS is used for styling elements on a webpage. 
+
+    18. How do we select an element? Example - every h2 on the page
+You can select all h2's by typing in h2 {}.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+Classes are used for selecting all elements with that class and styling them together, you could do this with srtyling all paragraphs to have the same color text, size and background color. You can style ids by themselves because maybe you wanted one of the paragraphs to have a different color.
+
+    20. How do we select classes in CSS?
+We select classes by typing in .classname {}.
+
+    21. How do we select a p element with a single class of “human””?
+We can select this by typing in .human p {}.
+
+    22. What is a parent child selector? When would this be useful?
+ A parent child selector is useful because it allows us to style the elements within an element. So styling a paragraph in a section.
+
+    23. How do you select all links within a div with the class of sidebar?
+We can do this by typing in .sidebar li {}.
+
+    24. What is a pseudo selector?
+A pseudo selector can be the :hover statement. This allows the element to change when mousing over it.
+
+    25. What do we use the change the spacing between lines?
+We can do this with the line-height property.
+
+    26. What do we use to change the spacing between letters?
+We can do this with the letter-spacing property.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+We can do this with the text-transform property and igve it a value of either uppercase or lowercase. 
+
+    28. How do I add a 1px border around my div that is dotted and black?
+div {
+	border: 1px dotted black;
+}
+
+    29. How do I select everything on the page? 
+You can select everything with the * selector followed by curly brackets.
+
+    30. How do I write a comment in CSS?
+In CSS it is /* */.
+
+    31. How do I find out what file I am in, when I am using the command line? 
+You can do this with the ls option.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+You can see them in the return /data/data/data.
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+You can do this with the rm command. You only want to do this if it's absolutely what you want because there's no getting it back. Say adios.
+
+    34. Why should I use version control? 
+Version cntrol is good for keeping track of changes.
+
+    35. How often should I commit to github?
+Everytime you finish a step.
+
+    36. What is the command we would use to push our repo up to github? 
+The command is git push -u firstname-lastname.
+
+    37. Walk me through Lambda's git flow. 
+Lambdas gitflow is cd into the file, git clone with copied url, cd into repo name, git checkout -b 'firstname-lastname', code . (this opens up visual studio where can make changes and then save), git add . to commit the change, git commit -m "helpful comment about what change you just made, git push -u origin firstname-lastname.
